@@ -91,7 +91,7 @@ const AstrologyWebsite = () => {
   const testimonials = [
     {
       name: "Arjun",
-      location: "Mumbai",
+      location: "Mysore",
       text: "I was skeptical about astrology until I came across this website. The detailed analysis of my birth chart was so accurate that it blew my mind. Highly recommended!",
       rating: 5,
       avatar: "per1.jpeg"
@@ -198,7 +198,7 @@ const AstrologyWebsite = () => {
       {/* Mobile-Responsive Navigation */}
       <nav className="bg-white shadow-md border-b-4 border-red-500 relative">
         <div className="max-w-7xl mx-auto">
-          <div className="flex justify-between items-center h-16 sm:h-20 md:h-24 lg:h-auto px-4 sm:px-6 lg:px-0">
+          <div className="flex justify-between items-center h-10 sm:h-20 md:h-24 lg:h-auto px-4 sm:px-6 lg:px-0">
             <div className="flex items-center">
               <img src="/logo.png" alt="Logo" className="h-12 sm:h-16 md:h-20 lg:h-60 xl:h-80 w-auto mr-2 sm:mr-4" />
             </div>
@@ -973,30 +973,30 @@ const AstrologyWebsite = () => {
               </div>
 
               {/* Google Maps - Responsive */}
-              <div className="bg-white/10 backdrop-blur-sm p-3 sm:p-4 rounded-xl border border-white/20">
-                <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62204.13450239775!2d76.57542864999999!3d12.311827!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3baf70381e572bc9%3A0x2b69b44a6bc3de6a!2sMysuru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1642676924123!5m2!1sen!2sin"
-                  width="100%" 
-                  height="200" 
-                  className="sm:h-60 md:h-80"
-                  style={{border: 0, borderRadius: '12px'}}
-                  allowFullScreen="" 
-                  loading="lazy" 
-                  referrerPolicy="no-referrer-when-downgrade"
-                  title="Mysore Location"
-                ></iframe>
-                <div className="mt-3 sm:mt-4 text-center">
-                  <a 
-                    href="https://share.google/J611pkQJ0sMk6O2dL" 
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 px-3 sm:px-4 py-2 bg-white/20 hover:bg-white/30 rounded-lg transition-all duration-300 text-white font-medium text-sm sm:text-base"
-                  >
-                    <MapPin className="w-3 h-3 sm:w-4 sm:h-4" />
-                    View larger map
-                  </a>
-                </div>
-              </div>
+             <div className="bg-white/10 backdrop-blur-sm p-3 sm:p-4 rounded-xl border border-white/20">
+  <iframe
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62204.13450239775!2d76.57542864999999!3d12.311827!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3baf70381e572bc9%3A0x2b69b44a6bc3de6a!2sMysuru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1642676924123!5m2!1sen!2sin"
+    width="100%"
+    height="200"
+    className="sm:h-60 md:h-80"
+    style={{border: 0, borderRadius: '12px'}}
+    allowFullScreen=""
+    loading="lazy"
+    referrerPolicy="no-referrer-when-downgrade"
+    title="Mysore Location"
+  />
+  <div className="mt-3 sm:mt-4 text-center">
+    <a
+      href="https://maps.app.goo.gl/tHicMgjwh7cLkoeU9?g_st=aw"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="inline-flex items-center gap-2 px-3 sm:px-4 py-2 bg-white/20 hover:bg-white/30 rounded-lg transition-all duration-300 text-white font-medium text-sm sm:text-base"
+    >
+      <MapPin className="w-3 h-3 sm:w-4 sm:h-4" />
+      View larger map
+    </a>
+  </div>
+</div>
             </div>
 
             {/* Right Side - Contact Info */}
@@ -1010,7 +1010,7 @@ const AstrologyWebsite = () => {
                     <div className="p-2 bg-red-100 rounded-full">
                       <MapPin className="w-4 h-4 sm:w-6 sm:h-6 text-red-600" />
                     </div>
-                    <span className="text-gray-700 font-medium text-base sm:text-lg">Mysore, Karnataka</span>
+                    <span className="text-gray-700 font-medium text-base sm:text-lg">#266 ,16 th main 5th class,  Mysore - 570009</span>
                   </div>
                   <div className="flex items-center gap-3 sm:gap-4 p-3 sm:p-4 bg-gray-50 rounded-lg">
                     <div className="p-2 bg-red-100 rounded-full">
@@ -1085,7 +1085,7 @@ const AstrologyWebsite = () => {
               <div className="space-y-2">
                 <div className="flex items-center gap-2 sm:gap-3">
                   <MapPin className="w-4 h-4 sm:w-5 sm:h-5 text-red-500" />
-                  <span className="text-sm sm:text-base">Mysore</span>
+                  <span className="text-sm sm:text-base">#266 ,16 th main 5th class,  Mysore - 570009</span>
                 </div>
                 <div className="flex items-center gap-2 sm:gap-3">
                   <Phone className="w-4 h-4 sm:w-5 sm:h-5 text-red-500" />
